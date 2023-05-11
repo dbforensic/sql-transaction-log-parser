@@ -7,13 +7,13 @@ Parsing Module of Microsoft SQL Server (MSSQL) Transaction log
 - Reconstruct queries with database data file (.mdf)
 
 ## Usage
-- python main.py -d [datafile(.mdf)] -l [logfile|unallocated] -m [mode]
-- Options:
+python main.py -d [datafile(.mdf)] -l [logfile|unallocated] -m [mode]
+Options:
 -   -d, --data [datafile] input MSSQL database data file (.mdf)
 -   -l, --log [logfile|unallocated] input MSSQL transaction log file (.ldf) or unallocated area data
 -   -m, --mode [mode]
 
-- Mode:
+Mode:
 -   0: Only transaction log file (.ldf)
 -   1: Transaction log file with data file (.mdf)
 -   2: Only unallocated area data
