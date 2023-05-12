@@ -8,6 +8,7 @@ Parsing Module of Microsoft SQL Server (MSSQL) Transaction log
 
 ## Usage
 python main.py -d [datafile(.mdf)] -l [logfile|unallocated] -m [mode]
+
 Options:
 -   -d, --data [datafile] input MSSQL database data file (.mdf)
 -   -l, --log [logfile|unallocated] input MSSQL transaction log file (.ldf) or unallocated area data
